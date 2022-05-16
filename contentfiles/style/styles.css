@@ -1,0 +1,131 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header / nav bar */
+
+/* centering and aligning items in header in total  */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* brings the left and right conent more in  */
+    padding: 30px 5%;
+}
+
+/* name title */
+.nametitle {
+    cursor: pointer;
+    color: #F8BE49;
+}
+a{
+    text-decoration: none;
+}
+
+/* middle nav bar  */
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a {
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #444444;
+}
+
+.navlinks li a:hover {
+    border-bottom: solid 6px #F8BE49;
+    transition: .1s ease-in;
+}
+
+#btn{
+    color: #F8BE49;
+    background-color: #444444;
+    border-radius: 10%;
+    height: 30px;
+    width: 80px;
+    font-weight: 700px;
+}
+
+/* name  and center info */
+.centername{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: #444444; 
+}
+
+.namec{
+    color: #F8BE49;
+}
+
+.ocu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 47px;
+    margin: 30px;
+    color: #444444; 
+}
+
+.pcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin: 30px;
+    color: #444444;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.resize{
+    width: 3.4em;
+    height: 3em;
+    margin: 10px;;
+}
+
+/* skills */
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 70px;
+    color: #444444;
+
+}
+
+.skillbox{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillbox li {
+    margin: 10px;
+    color: #444444;
+    font-weight: 900px;
+    font-weight: bolder;
+}
+
+.skillbox li:hover{
+    color: #F8BE49;
+    border: #F8BE49;
+    font-weight: bolder;
+}
